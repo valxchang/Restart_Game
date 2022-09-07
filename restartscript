@@ -1,0 +1,27 @@
+﻿# The script of the game goes in this file.
+
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+
+define m = Character('Me', color=)
+define a = Character('Aya', color="#e4411f")
+define 
+define
+define
+
+
+# The game starts here.
+
+label start:
+
+    scene forest
+
+    m "Where...where am I?"
+
+    m "Who am I?"
+    
+    a "Hello there!"
+
+    # This ends the game.
+
+    return
